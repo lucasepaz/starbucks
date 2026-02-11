@@ -1,0 +1,92 @@
+*{
+    margin: 0; /* ESPAÇAMENTO PARA FORA */
+    padding: 0; /* ESPAÇAMENTO PARA DENTRO */
+    box-sizing: border-box; /* DISTANCIA DOS ITENS */
+    font-family: "Poppins", sans-serif; /* FONTE DO PROJETO */
+}
+
+body {
+    padding-top: 20px; /* ESPAÇAMENTO PARA CIMA */
+    padding-right: 100px; /* ESPAÇAMENTO PARA DIREITA */
+    padding-left: 100px; /* ESPAÇAMENTO PARA ESQUERDA */
+}
+
+.conteudo {
+    width: 100%; /* LARGURA */
+    display:flex; /* IMAGENS FLEXIVEL */
+    align-items: center; /* ALINHAMENTO DOS ITENS */
+    justify-content: space-between; /* ESPAÇAMENTO ENTRE OS ITENS */
+}
+
+.caixa-texto {
+    width: 600px;
+}
+
+h1 {
+    color: #333; /* COR */
+    font-size: 60px; /* TAMANHO DA FONTE */
+    font-weight: bold;  /* GROSSURA DA FONTE */
+}
+
+span {
+    color: #017143; /* COR */
+    font-size: 70px; /* TAMANHO DA FONTE */
+    font-weight: 900;  /* GROSSURA DA FONTE */
+}
+
+p {
+    font-size: 30px; /* TAMANHO DA FONTE */
+}
+
+button {
+    background: #017143; /* COR DE FUNDO */
+    color: #fff; /* COR */
+    border-radius: 40px; /* ARREDONDAMENTO DAS BORDAS */
+    border: none; /* CONTORNO DAS BORDAS */
+    padding: 10px; /* ESPAÇAMENTO PARA DENTRO */
+    margin: 20px; /* ESPAÇAMENTO PARA FORA */
+    cursor: pointer; /* MUDA O PONTEIRO DO MOUSE */
+    transition: 0.5s; /* TRANSIÇÃO DO EFEITO */
+    font-size: 20px; /* TAMANHO DA FONTE */
+}
+
+button:hover { /* EFEITO NO BOTÃO */
+    background: #015633; /* COR DE FUNDO */
+}
+
+.caixa-imagem {
+    width: 600px; /* LARGURA */
+    display: flex; /* IMAGENS FLEXIVEL */
+    justify-content: flex-end; /* ESPAÇAMENTO ENTRE OS ITENS */
+    margin-top: 250px; /* ESPAÇAMENTO PARA FORA */
+}
+
+.copao-starbucks {
+    width: 350px; /* LARGURA */
+}
+
+.menu {
+    display: flex; /* IMAGENS FLEXIVEL */
+    justify-content: center; /* ESPAÇAMENTO ENTRE OS ITENS */
+}
+
+.botao-menu {
+    width: 100px; /* LARGURA */
+    cursor: pointer; /* MUDA O PONTEIRO DO MOUSE */
+    transition: 0.5s; /* TRANSIÇÃO DO EFEITO */
+}
+
+.botao-menu:hover { /* EFEITO NO BOTÃO */
+    transform: translateY(-30px); /* MOVIMENTO DO ITEM */
+}
+
+.circulo {
+    width: 100%; /* LARGURA */
+    height: 100%; /* ALTURA */
+    background: #017143; /* COR DE FUNDO */
+    position: absolute; /* POSIÇÃO DO ITEM */
+    top: 0; /* POSIÇÃO PARA CIMA/BAIXO */
+    left: 0; /* POSIÇÃO PARA DIREITA */
+    clip-path: circle(600px at right 800px); /* POSIÇÃO DO CIRCULO */
+    z-index: -1; /* TRAZ O ITEM PARA FRENTE */
+}
